@@ -1,0 +1,25 @@
+{
+  "name": "bobo-skilltesting-insertionsort",
+  "version": "1.0.0",
+  "description": "testing project",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "tsc -p ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "sorting",
+    "testing",
+    "test",
+    "project"
+  ],
+  "author": "Bogdan Bogdanov",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
