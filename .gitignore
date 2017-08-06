@@ -247,3 +247,7 @@ ModelManifest.xml
 **/.DS_Store
 
 .idea/
+
+PicturesStack/**/*.js
+
+Sorting/**/*.js

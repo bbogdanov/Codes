@@ -7,13 +7,13 @@ const ExifImage = require('exif').ExifImage;
 
 let directory: any;
 
-process.argv.forEach(function (val, index, array) {
+process.argv.forEach((val: string, index: number, array: Array<any>) => {
 	directory = val;
 });
 
-fs.readdir(directory, (err, files) => {
+fs.readdir(directory, (err: Error, files: any) => {
 	files.forEach((file) => {
-		new ExifImage({ image :  directory + '\\' + file}, function (error, exifData) {
+		new ExifImage({ image :  directory + '\\' + file}, (error: Error, exifData: any) => {
 			if(exifData) {
 
 				/* TODO Create comparing dates of files and create tree structure.
