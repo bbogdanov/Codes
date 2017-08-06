@@ -1,0 +1,26 @@
+{
+  "name": "pictures-stack",
+  "version": "1.0.0",
+  "description": "Scripts which move pictures into folders sorted by date",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pictures",
+    "stack",
+    "date",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "Bogdan Bogdanov",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.19",
+    "typescript": "^2.0.0"
+  }
+}
