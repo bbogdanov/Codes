@@ -20,12 +20,12 @@ export class Sorting {
             let prevoius = array[i];
             let next = array[i + 1];
             if (prevoius > next) {
-                //Moving next number to become previous.
+                // Moving next number to become previous.
                 array[i] = next;
-                //Moving previous number to become next.
+                // Moving previous number to become next.
                 array[i + 1] = prevoius;
 
-                //Recursion after changing the position for checking
+                // Recursion after changing the position for checking
                 // if after changing the position of the two numbers,
                 // now the number before previous is not larger than it.
                 array = Sorting.sorting(array);
@@ -36,5 +36,5 @@ export class Sorting {
     }
 }
 
-console.log(Sorting.Insertion(array));§
+console.log(Sorting.Insertion(array));
 
