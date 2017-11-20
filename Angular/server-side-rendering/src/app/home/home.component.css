@@ -1,0 +1,4 @@
+div:nth-child(2n) {
+    color: forestgreen;
+    background: whitesmoke;
+}
