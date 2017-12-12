@@ -29,6 +29,7 @@ app.use(express.static(`${__dirname}/dist`));
 app.engine('html', ngUniversal.ngExpressEngine({
   bootstrap: appServer.AppServerModuleNgFactory
 }));
+
 app.set('view engine', 'html');
 app.set('views', 'dist');
 
