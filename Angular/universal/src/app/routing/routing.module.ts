@@ -9,7 +9,8 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot([
         { path: ''       , component: HomeComponent    },
         { path: 'aboutus', component: AboutUsComponent },
-        { path: 'info'   , component: InfoComponent    }
+        { path: 'info'   , component: InfoComponent    },
+        { path: 'lazy', loadChildren: '../lazy/lazy.module#LazyModule'}
     ])
   ],
   exports: [ RouterModule ]

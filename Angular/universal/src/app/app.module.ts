@@ -1,3 +1,4 @@
+import { LazyModule } from './lazy/lazy.module';
 import { RoutingModule } from './routing/routing.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
